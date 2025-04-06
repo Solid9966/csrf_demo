@@ -1,4 +1,4 @@
-## webserver computing HW4
+# CSRF verification
 - django를 사용해, CSRF verification을 확인해보았다.
   1. templates 에 login.html, write.html, attack.html 을 생성
   2. views.py에서 @csrf_exempt를 사용하지 않고,http://127.0.0.1.8000/attack 접속시,<br>
