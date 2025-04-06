@@ -1,0 +1,13 @@
+<h2>게시글 작성</h2>
+<form method="post">
+    {% csrf_token %}
+    <label>제목:
+        <input type="text" name="title">
+    </label>
+    <br>
+    <label>내용:
+        <textarea name="content"></textarea>
+    </label>
+    <br>
+    <input type="submit" value="작성">
+</form>
